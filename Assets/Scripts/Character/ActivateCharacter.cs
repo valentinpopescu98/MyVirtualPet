@@ -9,8 +9,8 @@ public class ActivateCharacter : MonoBehaviour
             TransformCharacter objectScript = GameObject.FindGameObjectWithTag("Character").GetComponent<TransformCharacter>();
             objectScript.isOneActive = !objectScript.isOneActive;
 
-            Ray ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
-            RaycastHit hit;
+            //Ray ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
+            //RaycastHit hit;
 
             //if (Physics.Raycast(ray, out hit))
             //{
@@ -27,9 +27,9 @@ public class ActivateCharacter : MonoBehaviour
             TransformCharacter objectScript = GameObject.FindGameObjectWithTag("Character").GetComponent<TransformCharacter>();
             objectScript.isTwoActive = !objectScript.isTwoActive;
 
-            Ray ray1 = Camera.main.ScreenPointToRay(Input.touches[0].position);
-            Ray ray2 = Camera.main.ScreenPointToRay(Input.touches[1].position);
-            RaycastHit hit1, hit2;
+            //Ray ray1 = Camera.main.ScreenPointToRay(Input.touches[0].position);
+            //Ray ray2 = Camera.main.ScreenPointToRay(Input.touches[1].position);
+            //RaycastHit hit1, hit2;
 
             //if (Physics.Raycast(ray1, out hit1) && Physics.Raycast(ray2, out hit2))
             //{
