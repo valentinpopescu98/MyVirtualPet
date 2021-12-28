@@ -1,2 +1,2 @@
 # My Virtual Pet
-AR game inspired by My Talking Tom
+AR game inspired by My Talking Tom.
