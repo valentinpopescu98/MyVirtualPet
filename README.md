@@ -1,2 +1,2 @@
-# MyVirtualpet
-AR game with pets that you can interact with, play with and even punish if they're naughty.
+# My Virtual Pet
+AR game inspired by My Talking Tom
